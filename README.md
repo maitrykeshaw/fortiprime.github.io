@@ -1,1 +1,1 @@
-# fortiprime.github.io
+# https://buy-fortiprime.vercel.app

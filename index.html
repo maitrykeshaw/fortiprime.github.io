@@ -49,17 +49,6 @@
   <link rel="shortcut icon" href="/icons/favicon.ico">
   <link rel="manifest" href="/manifest.json">
   <meta name="theme-color" content="#00bcd4">
-  <script>
-    if ('serviceWorker' in navigator) {
-      window.addEventListener('load', function () {
-        navigator.serviceWorker.register('/sw.js').then(function (registration) {
-          console.log('ServiceWorker registration successful with scope: ', registration.scope);
-        }, function (err) {
-          console.log('ServiceWorker registration failed: ', err);
-        });
-      });
-    }
-  </script>
 </head>
 
 <body data-affiliate-param="affiliate_id" data-show-progress="true">
@@ -3945,6 +3934,17 @@
     <input type="hidden" name="cf-state-county-dropdown-feature-enabled" value="true">
   </div>
   <style id="custom-css"></style>
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', function () {
+        navigator.serviceWorker.register('/sw.js').then(function (registration) {
+          console.log('ServiceWorker registration successful with scope: ', registration.scope);
+        }, function (err) {
+          console.log('ServiceWorker registration failed: ', err);
+        });
+      });
+    }
+  </script>
 </body>
 
 </html>

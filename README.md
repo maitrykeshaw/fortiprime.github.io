@@ -1,1 +1,1 @@
-# https://buy-fortiprime.vercel.app
+# https://buy-fortiprime.vercel.app/

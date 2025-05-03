@@ -1,12 +1,12 @@
 {
-  "name":"PWA Tutorial",
-  "short_name":"PWA",
+  "name":"Forti Prime™ (Official) Get 50% Off + Free Shipping",
+  "short_name":"Forti Prime™",
   "start_url":"index.html",
   "display":"standalone",
   "background_color":"#5900b3",
   "theme_color":"#FF5733",
   "scope": ".",
-  "description":"This is a PWA tutorial.",
+  "description":"Forti Prime is a revolutionary natural dietary support formula that is formulated to keep you immune and young for years to come.",
   "icons":[
   {
   "src":"icons/favicon-192x192.png",                     
